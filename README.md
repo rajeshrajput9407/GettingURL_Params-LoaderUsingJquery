@@ -3,7 +3,6 @@ Get the parameter of Get URL and Loader of Screen using Jquery
 
 # GEt url parameter from the URL
 
- ```
  $.urlParam = function (name) {
             var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
             if (results == null) {
@@ -21,10 +20,9 @@ Get the parameter of Get URL and Loader of Screen using Jquery
             var clientId = $.urlParam('clientid');
             var password = $.urlParam('password');
         })
-```
-#Ajax Loader using Jquery      
+	
+***********************#Ajax Loader using Jquery   **************************************************    
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
