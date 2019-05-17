@@ -21,10 +21,8 @@ Get the parameter of Get URL and Loader of Screen using Jquery
             var clientId = $.urlParam('clientid');
             var password = $.urlParam('password');
         })
-	
-        ```
+
 # Ajax Loader using Jquery      
-```
 <!DOCTYPE html>
 
 <html>
@@ -128,4 +126,3 @@ $('.spinner').css('display', 'none');
     </div>
 </body>
 </html>
-```
