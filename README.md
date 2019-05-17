@@ -21,7 +21,7 @@ Get the parameter of Get URL and Loader of Screen using Jquery
             var password = $.urlParam('password');
         })
 	
-***********************#Ajax Loader using Jquery   **************************************************    
+#Ajax Loader using Jquery
 <!DOCTYPE html>
 <html>
 <head>
