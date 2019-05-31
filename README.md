@@ -3,6 +3,7 @@ Get the parameter of Get URL and Loader of Screen using Jquery
 
 # GEt url parameter from the URL
 
+ ```
  $.urlParam = function (name) {
             var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
             if (results == null) {
